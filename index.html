@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev.F Cajeros Automáticos</title>
+<!--     ----------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--     Proyecto Cajero Automático del Grupo 3 - Natalia Insfran y Paola Ortiz - Dev.F. Noviembre 2021 -->
+<!--     ----------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- Favicon -->    
+    <link rel="shortcut icon" href="./img/banco.png" type="image/x-icon">
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Javascript -->
+    <script defer src="./js/operaciones.js"></script>
+    <!-- Google Fonts -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container" id="borde">
+        <nav class="navegador">
+            <ul class="navegador">
+                <img class="menu-icon" src="./img/menu.png" alt="menu">
+                <li class="item">Home</li>
+                <li class="item">Nosotros</li>
+                <li class="item">Contacto</li>            
+                <li class="item">Ayuda</li>
+                <li class="item">Novedades</li>
+                <input class="buscador" type="search" name="buscador" id="buscador">
+                <img class="lupa" src="./img/lupa.png" alt="buscador">
+            </ul>
+        </nav><br>
+        <header class="cabecera">      
+            <img class="logo" src="./img/devf.jpg" alt="logo">  
+ <!--            <h1 id="devf">Dev.F</h1> -->
+            <div id="linea"></div>
+            <h1 id="cajeros" class="texto">Cajeros Automáticos</h1>
+        </header>
+        <form id="Ingreso" action="" class="input">
+            <h2 id="introduce">Ingresa tus datos</h2>
+            <select name="UserName" id="UserName" class="btn">
+                <option class="seleccionados" value="Paola">Paola</option>
+                <option class="seleccionados" value="Natalia">Natalia</option>
+                <option class="seleccionados" value="Laura">Laura</option>
+            </select><br>
+            <input id="Password" class="btn" type="password" name= "password" placeholder="Contraseña"><br>
+            <button  id="IniciarSesion" class="btn cambio" type="submit">Ingresar</button>
+        </form>
+    </section>
+    <section id="Bienvenido" class="container">
+        <button id = "Saldo" class="btn cambio" type ="button"> Consultar Saldo</button><br>
+        <button id = "Deposito" class="btn cambio" type ="button"> Ingresar Monto</button><br>
+        <button id = "Retirar" class="btn cambio" type ="button"> Retirar Monto</button>
+    </section>
+
+</body>
+</html>

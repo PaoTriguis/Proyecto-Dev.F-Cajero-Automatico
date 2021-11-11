@@ -1,0 +1,131 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Noto Serif Display', serif; */
+
+body{
+    margin-left: 60px;
+    background-image: url("/img/bank.png");
+    background-size: 1220px;
+}
+
+.container{
+    margin: 10px, -300px, 20px, 20px;
+}
+
+#devf{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: rgb(99,84,163);
+}
+
+.navegador{
+    display: flex;
+    color: rgb(99,84,163);
+    font-family: 'Noto Serif Display', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    justify-content: space-between;
+     
+}
+
+.menu-icon{
+    width: 12px;
+    margin-left: 20px;
+    filter: contrast(20%);
+}
+
+#buscador{
+    margin-left: 200px;
+    width: 400px;
+    border-radius: 40px;
+    border-color:rgb(99,84,163);
+    background-color: transparent;    
+    color: rgb(99,84,163);
+
+}
+
+.lupa{
+    margin-left: 20px;
+    filter: contrast(40%);
+    width: 15px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: #f88f44;
+}
+
+#cajeros{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 20px;
+}
+
+.seleccionados {
+    background-color: white;
+}
+
+#UserName {
+    width: 185px;
+}
+
+.texto{
+    color: rgb(99,84,163);
+    font-family: 'Noto Serif Display', serif;
+    font-size: 20px;
+}
+
+#introduce{
+    color: rgb(99,84,163);
+    margin-left: 25px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 20px;
+}
+
+#linea{
+    width: 200px;
+    height: 5px;
+    background-color: #f88f44;
+}
+
+.btn, .input{
+    margin: 20px;
+    border-radius: 40px;
+    padding: 9px;
+    border-color:rgb(99,84,163);
+    background-color: transparent;    
+    color: rgb(99,84,163);
+}
+
+.cambio{
+    background-color:  rgb(99,84,163);
+    color: white;
+}
+
+.cambio:hover{
+    background-color: #f88f44;
+    color: white;
+    cursor: pointer;
+}
+
+#Bienvenido{
+    display: none;
+}
+
+#Ingreso{
+    display: block;
+}
+
+.cabecera {
+    margin-left: 50px;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 30px;
+}
